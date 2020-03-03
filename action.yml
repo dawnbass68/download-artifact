@@ -10,3 +10,5 @@ inputs:
 runs:
   # Plugins live on the runner and are only available to a certain set of first party actions.
   plugin: 'download'
+ name: Download artifact
+  uses: actions/download-artifact@v1.0.0
